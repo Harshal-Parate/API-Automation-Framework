@@ -1,0 +1,15 @@
+[
+  {
+    "testcase": "Verify with a valid PAN, an associated valid TAN, valid cert_no, valid amount, valid past fiscal year and valid consent as 'Y'",
+    "consent": "Y",
+    "tan": "DELE06823F",
+    "pan": "BVZPS1846R",
+    "cert_no": "MICQCLI",
+    "amount": "152609",
+    "fiscal_year": "2014-15",
+    "expectedResult": {
+      "expectedStatus": "Valid"
+    },
+    "expectedInternalStatusCode": "101"
+  }
+]
