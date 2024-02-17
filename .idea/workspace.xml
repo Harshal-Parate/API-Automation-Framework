@@ -4,24 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392d183e-c250-449b-a1ae-333aaf74bcc2" name="Changes" comment="" />
+    <list default="true" id="392d183e-c250-449b-a1ae-333aaf74bcc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/org/constants/StringEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/org/constants/StringEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/org/services/RequestCreationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/org/services/RequestCreationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/org/tests/TestPackage/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/org/tests/TestPackage/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configdata/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configdata/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2aqSJuEb3jv47xKFsVjD5v68FOd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/harshalparate/Downloads/API Automation Framework/API Automation&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Tests.verifyTestApiApiForAllGivenValidDetailsTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="API Automation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="API Automation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.getTheResponseUsingGETMEthod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.org.tests.TestPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.org.tests.TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="in.org.tests.TestPackage.Tests" />
+      <option name="METHOD_NAME" value="getTheResponseUsingGETMEthod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.verifyTestApiApiForAllGivenValidDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.org.tests.TestPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.org.tests.TestPackage" />
+      <option name="MAIN_CLASS_NAME" value="in.org.tests.TestPackage.Tests" />
+      <option name="METHOD_NAME" value="verifyTestApiApiForAllGivenValidDetailsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Tests.verifyTestApiApiForAllGivenValidDetailsTest" />
+        <item itemvalue="TestNG.Tests.getTheResponseUsingGETMEthod" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

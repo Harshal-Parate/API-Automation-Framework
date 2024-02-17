@@ -24,17 +24,14 @@ import java.lang.reflect.Method;
 @Epic("Tests Package")
 @Feature("Test Api")
 @Owner("QA: ; Dev: ")
-public class Tests
-{
+public final class Tests {
 
-    private Tests()
-    {
+    private Tests() {}
 
-    }
     @Story("When all valid details are given in the input")
-    @Description("Form 16 Authentication API test for 200/101 when all the valid details are given")
+    @Description("Testing API for 200 when all the valid details are given")
     @Severity(SeverityLevel.BLOCKER)
-    @Test(dataProvider = "getData", groups = { "Sanity", "Regression", "Emp&Income", "Emp&Income_v2", "TestApiApi" }, priority = 1)
+    @Test(dataProvider = "getData", groups = { "Sanity", "Regression"}, priority = 1)
     public void verifyTestApiApiForAllGivenValidDetailsTest(TestApiRoot data, ITestContext testContext) {
         AllureManager.setAllureReportPrerequisites(data.getTestcase(), testContext);
 
@@ -56,6 +53,19 @@ public class Tests
                 .verify();
     }
 
+//    /*
+//        Trying the GET http method infusion
+//     */
+//    @Test(dataProvider = "getData")
+//    public void getTheResponseUsingGETMEthod(TestApiRoot data, ITestContext testContext) {
+//        AllureManager.setAllureReportPrerequisites(data.getTestcase(), testContext);
+//
+//        Response response = RequestCreationService.get(getValidGetEndpoint());
+//        TestApiResponseRoot parsedResponse = ResponseParserService.parse(response, TestApiResponseRoot.class);
+//        System.out.println(parsedResponse);
+//
+//    }
+//
 
 
     @DataSupplier(name = "getData")
@@ -65,10 +75,4 @@ public class Tests
                 getTestApiInvalidOrMissingHeaderKeysData(), getTestApiInvalidEndpointData(),
                 TestApiRoot.class, method);
     }
-
-
-
-
-
-
 }

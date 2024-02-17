@@ -3,6 +3,7 @@ package in.org.services;
 import in.org.allurereport.AllureLogger;
 //import in.karza.pojos.data.kycocr.KycOcrFormData;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 import static in.org.services.ReqSpecCreationService.requestSpecification;
 import static io.restassured.RestAssured.given;
@@ -39,6 +40,21 @@ public final class RequestCreationService {
 //				.body(payload)
 //				.when()
 //				.post(endpoint);
+//		AllureLogger.addAllureLog(REQUEST_IS_HIT);
+//		return response;
+//	}
+
+
+
+	/*
+			Creating GET method for infusion
+	 */
+
+//	public static <T> Response get(String endpoint) {
+//		Response response = given()
+//				.spec(requestSpecification())
+//				.when()
+//				.get();
 //		AllureLogger.addAllureLog(REQUEST_IS_HIT);
 //		return response;
 //	}
